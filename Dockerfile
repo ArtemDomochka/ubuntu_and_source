@@ -7,9 +7,6 @@ WORKDIR /source
 
 ADD ${pwd}/source /source
 
-RUN ./build.sh
-
 EXPOSE 80
 
-CMD ./server 0.0.0.0 80 .
 
